@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3school</title>
+    <link rel="stylesheet" href=".\w3c-1.css">
+</head>
+<body>
+    <!-- logo区域 -->
+    <div class="logo banCen">
+        <h1>W3school</h1>
+        <div>
+            <input type="text">
+            <p></p>
+        </div>
+    </div>
+
+    <!-- 导航区域 -->
+    <div class="layOutNav">
+        <ul class="nav banCen">
+            <li>HTML/CSS</li>
+            <li>Browser Side</li>
+            <li>Server Side</li>
+            <li>Programming</li>
+            <li>XML</li>
+            <li>Web Building</li>
+            <li class="last">Reference</li>
+        </ul>
+    </div>
+
+    <!-- 内容区域 -->
+    <div class="content banCen">
+        <div class="pit">
+        </div>
+            <p class="p1">
+                HTML教程
+            </p>
+        <ul>
+            <li>HTML</li>
+            <li>HTML5</li>
+            <li>XHTML</li>
+            <li>CSS</li>
+            <li>CSS3</li>
+            <li>Bootstrap5</li>
+            <li>TCP/IP</li>
+        </ul>
+        
+            <p class="p1">
+                浏览器脚本
+            </p>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML DOM</li>
+            <li>jQuery</li>
+            <li>jQuery Mobile</li>
+            <li>AJAX</li>
+            <li>JSON</li>
+            <li>DHTML</li>
+            <li>E4X</li>
+            <li>WMLScript</li>
+        </ul>
+
+        <p class="p1">
+            服务器脚本
+        </p>
+    <ul>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>ASP</li>
+        <li>ADO</li>
+        <li>ASP.NET</li>
+        <li>VBScript</li>
+    </ul>
+
+        <p class="p1">
+             编程
+        </p>
+        <ul>
+            <li>Python</li>
+            <li>Python NumPy</li>
+            <li>机器学习</li>
+        </ul>
+        <p class="p1">
+            XML教程
+        </p>
+        <ul>
+            <li>XML</li>
+            <li>DTD</li>
+            <li>XML DOM</li>
+            <li>XSl</li>
+            <li>XSLT</li>
+            <li>XSL_FO</li>
+            <li>XPath</li>
+            <li>XQuery</li>
+            <li>XLink</li>
+            <li>Xpointer</li>
+            <li>Schema</li>
+            <li>XForms</li>
+            <li>>WAP</li>
+            <li>SVG</li>
+        </ul>
+        
+        <p class="p1">
+            Web Services
+        </p>
+        <ul>
+            <li>Web Services</li>
+            <li>WSDL</li>
+            <li>SOAP</li>
+            <li>RSS</li>
+            <li>RDF</li>
+        </ul>
+
+        <p class="p1">
+            建站手册
+        </p>
+        <ul><li>网站构建</li>
+
+            <li>万维网联盟（W3C）</li>
+            
+            <li>浏览器信息</li>
+            <li>网站品质</li>
+            <li>语义网</li>
+            <li>职业规划</li>
+            <li>网站主机</li>
+            <li>网络媒体</li>
+        </ul>
+    </div>
+        
+</body>
+</html>
+
+
+
+css篇
+css篇
+caa篇
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* 公共版心 */
+.banCen {
+    width:1100px;
+    margin: auto;
+}
+
+/* logo区域 */
+.logo {
+    height: 100px; 
+    background-color: rgb(253,252,248);
+}
+
+.logo > h1 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.logo > div {
+    float: right;
+    width: 294px;
+    height:40px;
+    border: 1px solid #e2e2e2;
+    margin: 30px 15px;
+}
+
+input {
+    height: 100%;
+    width: 243px;
+    float: left;
+    text-indent: 10px;
+}
+
+.logo p {
+    height: 1%;
+    border-left: 1px solid #e2e2e2;
+    width: 50px;
+    float: left;
+    background: url(C:\Users\jiapingshisan\Desktop\MyCode\w3c-jiapingshisan\w3d-zp.png)
+    no-repeat center;
+}
+
+/* 导航区域 */
+.layOutNav {
+    height: 60px;
+    background-color: rgb(119,119,119);
+}
+
+.nav {
+    background-color: orange;
+}
+
+.nav >li {
+    float: left;
+    line-height: 60px;
+    /* border-right: 1px solid rgb(232,231,227); */
+    color: rgb(232,231,227);
+    padding: 0px 32px;
+    box-sizing: border-box;
+    font-size: 17.5px;
+}
+
+.nav > .last {
+    border-right: 0px;
+}
+
+/* 内容区域 */
+.content banCen {
+    height: 2500px;
+    background-color: orangered;
+    margin-bottom: 30px;
+}
+
+.content > div {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.content > .pit > .p1 {
+    padding: 20px 0px 10px 20px;
+    color: #272727;
+}
+
+.content > .pit > .ul {
+    font-size: 12px;
+    padding: 10px 0px 10px 0px;
+    line-height: 12px;
+    color: #32313a;
+
+}
+
+css篇
