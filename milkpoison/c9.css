@@ -1,0 +1,149 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fdfcf8;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC", Verdana, Arial, '微软雅黑','宋体';
+    font-size: 14px;
+    width: 1270px;
+}
+*{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+div{
+    display: block;
+}
+
+div#wrapper{
+    text-align: left;
+}
+
+div#header{
+    display:flex;
+    width: 1270px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+div#header form{
+    margin-left: auto;
+}
+
+div#index{
+    overflow: hidden;
+    background-color: rgb(129, 117, 117);
+    
+  }
+   
+div#index a{
+    display: block;
+    float: left;
+    color: #bab3b3;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+   
+div#index a:hover{
+    background-color: rgb(77, 75, 75);
+    color: rgb(198, 198, 198);
+  }
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+div#index li{
+    width: 14%;
+    float:left;
+    display: block;
+}
+
+div#header a{
+    text-decoration: none;
+    color: rgb(167, 51, 51);
+}
+
+div#header a:hover{
+    text-decoration:solid;
+}
+
+form#searchform button {
+    padding: 10px;
+    background: rgb(167, 51, 51);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+
+div#column{
+    display: flex;
+    margin:20px;
+}
+
+div#column #middle{
+    flex:3;
+    border-bottom-style: none;
+    border-color:cadetblue ;
+    border-width: 1px;
+}
+
+div #left{
+    font-size: 10px;
+    border-color: cadetblue;
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style:solid;
+    padding: 5px;
+}
+
+div #right{
+    font-size: 10px;
+    border-color: cadetblue;
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style:solid;
+}
+
+div #right a{
+    color:rgb(167, 51, 51);
+    text-decoration: none;
+}
+
+div #first{
+    text-align: center;
+    padding-left: 0;
+}
+
+div #middle>div{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+div #right{
+    padding:5px;
+}
+
+div #footer>p{
+    background-color: #bab3b3;
+    height: 50px;
+}
+
+div #footer{
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: smaller;
+}
