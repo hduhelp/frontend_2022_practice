@@ -1,0 +1,501 @@
+body
+		{
+		font-family:"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC", Verdana, Arial, '微软雅黑','宋体';
+		font-size:38px;
+		}
+
+h2, h3, h4, h5, h6, em
+		{
+		font-weight: bold;
+		}
+
+body#homefirst div#maincontent h3
+		{
+		font-size: 14px;
+		}
+
+div#maincontent h3
+		{
+		font-size: 15px;
+		}
+
+html 	{ 
+		min-width: 1210px;
+		background-color: #fdfcf8;
+		overflow:scroll;
+		overflow-x:hidden;
+		}
+
+body
+		{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: #fdfcf8;
+		}
+
+div#wrapper
+		{
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		width: 1239px;
+		text-align: left;
+		/* background: transparent url(/ui2017/wrapper.png) top left repeat-y; */
+		}
+
+div#navsecond
+		{
+		float: left;
+		margin: 0 0 0 6px;
+		padding: 0;
+		border: 0;
+		width: 180px;
+		background : transparent;
+		margin-left: 12px;
+		}
+
+div#maincontent
+		{
+		float: left;
+		margin: 0;
+		padding: 30px 0 0 0;
+		border: 0;
+		width: 850px;
+		background: transparent;
+		}
+
+div#maincontent	> div{
+	width: 810px;
+	margin: 0 0 0 25px;
+	padding: 30px 0 32px 0;
+	border:0;
+	border-bottom: 1px solid #aaa;
+	}
+
+div#sidebar
+		{
+		float: left;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		width: 180px;
+		background: transparent;
+		}
+
+div#footer
+		{
+		clear: both;
+		margin: 0;
+		padding-top: 16px;
+		padding-bottom: 20px;
+		margin-left: 12px;
+		width: 1210px;
+		line-height:24px;
+		background: #f0f0f0;
+		border-top: 0px solid #fff;
+		/* background: #fdfcf8 url(/ui2017/footer.png) top left repeat-x; */
+		font-family:PingFangSC-Regular, '微软雅黑', Verdana, Arial, '宋体';
+		}
+
+div#footer #p1
+		{
+		font-size:12px;
+		color:#000;
+		text-align:center;
+		/* background: transparent url(/ui2017/alert.png) no-repeat; */
+		background-position:235px 2px;
+		}
+
+div#footer #p2
+		{
+		margin: 55px 0 30px 0;
+		font-size:14px;
+		text-align:center;
+		color:#000;
+		}
+
+div#footer #p1, div#footer #p2, div#footer #p2 a { 
+		max-height: 0;
+		}
+
+
+div#header, div#header_index
+		{
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		width: 1210px;
+		height: 100px;
+		background-color:#fdfcf8;
+		}
+
+div#header_index a, div#header_index h1
+		{
+        margin: 0;
+		padding: 0;
+		border: 0;
+		}
+
+div#header_index a, div#header_index h1
+		{
+		float:left;
+		} 
+
+div#header_index h1
+		{
+		display: block;	
+		width: 500px;
+		height: 100px;
+		}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    div#header_index a, div#header_index h1
+            {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            }
+
+    div#header_index a, div#header_index h1
+            {
+            font-size: 80px;
+            text-indent: -9999px;
+            overflow:hidden;
+            float:left;
+            }
+    
+
+
+}
+
+
+div#searchui
+		{
+		margin:0;
+		padding:0;
+		width:306px;
+		height:100px;
+		background-color: transparent;
+		float:right;
+		}
+
+#searchui input.button
+		{
+		padding:0;
+		margin:0;
+		background:#AE4141;
+		font:12px Verdana, Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		width:30px;
+		height:30px;
+		}
+
+#searchui input.box
+		{
+		margin:0;
+		margin-top:35px;
+		width:256px;
+		height:28px;
+		background:#fdfdfd;
+		font:12px Verdana, Arial, Helvetica, sans-serif;
+		border:1px solid #ddd;
+		}
+
+body#homefirst div#maincontent div
+		{
+		padding-top:0;
+		padding-bottom:30px;
+		width:810px;
+		}
+
+body#homefirst div#maincontent h3
+		{
+		margin-top:35px;
+		margin-left:110px;
+		font-size:24px;
+		}
+
+body#homefirst div#maincontent p
+		{
+		margin-left:110px;
+		font-size:16px;
+		}
+
+body#homefirst div#maincontent div.idea
+		{
+		min-height: 118px;
+		}
+
+body#homefirst div#maincontent div#d1
+		{
+		text-align:center;
+		}
+
+body#homefirst div#maincontent div#d1 h2
+		{
+		margin-top:35px;
+		font-size:24px;
+		}
+
+body#homefirst div#maincontent div#d1 p
+		{
+		margin-left:0;
+		font-size:18px;
+		}
+
+body#homefirst div#maincontent div#partner
+		{
+		width: 307px;
+		float: left;
+		}
+
+div#navfirst
+		{
+		height: 48px;
+		width: 1210px;
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		background: #E8E7E3;
+		}
+
+div#navfirst ul#menu
+		{
+		height: 48px;
+		width: 1210px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+
+div#navfirst ul#menu li
+		{
+		margin:0;
+		padding:0;
+		list-style:none;
+		position:absolute;
+		top:0;
+        
+		}
+
+ul#menu li,ul#menu a
+		{
+		display: block;
+		height: 48px;
+		border-bottom:0;
+        
+		}
+
+div#navfirst ul#menu li a
+		{
+        color: #6e6767;
+        font-size: 25px;
+		/* text-indent: -9999px; */
+		overflow:hidden;
+		text-decoration: none;
+		}
+
+#h	{width: 166px; left: 0px;}
+#b	{width: 191px; left: 166px;}
+#s	{width: 175px; left: 357px;}
+#p 	{width: 198px; left: 532px;}
+#x	{width: 113px; left: 730px;}
+#w	{width: 197px; left: 843px;}
+#r	{width: 170px; left: 1040px;}
+
+a:link, a:visited {
+	text-decoration : none;
+	color : #900b09;
+	background : transparent; 
+	border-bottom:1px solid #900b09;
+	}
+
+a:hover {
+	text-decoration : none;
+	color: #aa7d7d;
+	background : transparent; 
+	border-bottom:1px solid #ff0000;
+	}
+
+a:active {
+	text-decoration : none;
+	color : #aa7d7d;
+	background : transparent;  
+	}
+
+div#navsecond a:link, div#navsecond a:visited	{
+	text-decoration : none;
+	color:#000;
+	background : transparent;
+	} 
+
+div#navsecond a:hover	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#navsecond a:active	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#maincontent .partner a {
+	color:#000;
+	}
+
+div#footer a	{
+	border-bottom: 1px solid;
+    margin-left: 10px;
+	} 
+
+div#footer a:link, div#footer a:visited	{
+	text-decoration : none;
+	color:#000;
+	background : transparent;
+	} 
+
+div#footer a:hover	{
+	text-decoration : none;
+	color : #900b09;
+	background : transparent;
+	border-bottom:1px solid #900b09;
+	}
+
+div#footer a:active	{
+	text-decoration : none;
+	color : #900b09;
+	background : transparent;
+	border-bottom:1px solid #900b09;
+	}
+
+div#maincontent h1	{
+		margin:0 0 0 25px;
+		font-size: 24px;
+		font-weight:bold;
+        color: #3f3f3f;
+	}
+
+div#maincontent h2
+		{
+		font-size: 18px;
+        font-weight: bold;
+		color:#3f3f3f;
+		}
+
+body#homefirst div#maincontent, div#maincontent h1, div#maincontent h2, div#sidebar div#sidebar_zzs h2
+		{
+		font-family:'微软雅黑';
+		}
+
+div#maincontent h3,  div#maincontent h4{
+	margin:25px 0 0 0;
+	}
+
+body#homesecond div#navsecond li {
+	margin:5px 0 0 0;
+	}
+
+
+div#maincontent p
+	{
+	margin: 15px 0 0 0;
+	line-height: 150%;
+	}
+
+div#maincontent ul{
+	margin-top:15px;
+	margin-left:35px;
+	margin-bottom:20px;
+    line-height: 150%;
+	}
+
+div#maincontent li {
+	margin-top:3px;
+	}
+
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li	{
+	margin: 0;
+	padding: 0;
+	}
+
+div#navsecond ul, div#sidebar ul	{
+	margin-left: 12px;
+	}
+
+div#navsecond li, div#sidebar li	{
+	list-style: none;
+	}
+
+div#navsecond h2, div#sidebar h2	{
+	font-size: 14px;
+	margin:0;
+	padding:10px 0 5px 10px;
+	color:#000;
+	display:block;
+	border-bottom:0px solid #ddd;
+	font-family:'微软雅黑';
+	}
+
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li	{
+	margin: 0;
+	padding: 0;
+	font-family:'微软雅黑';
+	}
+
+
+div#navsecond li, div#sidebar li	{
+	list-style: none;
+	}
+
+div#navsecond a, div#sidebar a {
+	display:block;
+	padding:5px 0 5px 15px;
+	font-size:12px;
+	border-bottom:0px solid #ddd;
+	text-decoration:none;
+	}
+
+div#navsecond ul a.active {
+	background : #f5f5f5;
+	color:#990000;
+	} 
+	
+	
+div#navsecond a:link, div#navsecond a:visited	{
+	text-decoration : none;
+	color:#000000;
+	background : transparent;
+	} 
+
+div#navsecond a:hover	{
+	text-decoration : none;
+	color : #fff;
+	background : #aaa;
+	}
+
+div#sidebar a:hover	{
+	text-decoration : none;
+	color : #fff;
+	background : #BD2D30;
+	}
+
+div#navsecond a:active	{
+	text-decoration : none;
+	color : #fff;
+	background : #aaa;
+	}
+
+div#navsecond li.currentLink a:link, div#navsecond li.currentLink a:visited	{
+	text-decoration : none;
+	color:#ffffff;
+	background-color: #BD2D30;
+	}
+
+
+
