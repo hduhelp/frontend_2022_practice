@@ -1,0 +1,226 @@
+#title {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search input {
+    border: 2px solid #c5464a;
+    border-radius: 5px;
+    background: transparent;
+    top: 0;
+    right: 0;
+}
+
+.search button {
+    background: #c5464a;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0;
+    right: 0;
+}
+
+.search button:before {
+    content: "搜索";
+    font-size: 13px;
+    color: #F9F0DA;
+}
+
+/*去掉ul的样式*/
+.bnav ul{
+    list-style:none;
+}
+/*去掉a标签的下划线*/
+.nav a{
+    text-decoration: none;
+}
+/*设置.nav的宽高、居中显示、下边框样式*/
+.nav{
+    width: 80%;
+    height: 25px;
+    margin: 0 auto;
+    border-bottom: 2px solid #0266A3;
+}
+/*line-height: 25px;与父元素.nav的height一样，使得li居中显示*/
+.nav li{
+    padding:0 15px 0 15px;
+    line-height: 25px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*a标签不能继承父标签的颜色，所以需要单独设置a标签中的字体颜色*/
+.nav li a{
+    color: #0266A3;
+}
+.nav li{
+    color: #0266A3;
+}
+/*当鼠标移动到li标签时，背景颜色变成#0266A3*/
+.out:hover{
+    background-color:#0266A3 ;
+}
+/*当鼠标移动到li标签时，a标签中的字体颜色变成#0266A3*/
+.out:hover  a{
+    color: white;
+}
+
+.main{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.main ul {
+    list-style: none;
+}
+.main li{
+    text-decoration: none;
+}
+.nor a{
+    line-height: 1em;
+    text-decoration: none;
+    color: black;
+}
+.leftnav{
+    width: 13%;
+    border:1px solid black;
+    margin: 0;
+}
+.leftnav ul{
+    padding-left: 0;
+}
+
+/*当鼠标移动到li标签时，背景颜色变成#0266A3*/
+.nor:hover{
+    background-color:#0266A3 ;
+}
+.nor:hover  a{
+    color: white;
+}
+.dif{
+    width: 16%;
+    border: 1px solid black;
+}
+
+.mainnav{
+    display: flex;
+    width: 71%;
+    border:1px solid black;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.mainnav div{
+    margin: 0;
+    border-width: 1px;
+}
+.xxx{
+    height: 12.5%;
+}
+
+#mnf{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.mmi{
+    width: 100%;
+    display: flex;
+    border-bottom:1px solid black;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    align-items: center;
+}
+
+.imge {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.xxx{
+    height: 90%;
+}
+.mmi h2{
+    margin: 5px;
+}
+.mmi p{
+    margin: 5px;
+}
+#endf{
+    display: flex;
+    padding-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+#endf div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end{
+    width: 100%;
+}
+
+#ends{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.endsi{
+    display: flex;
+    width: 90%;
+}
+
+.text{
+    width: 60%;
+}
+.img img{
+    width: 100px;
+}
+
+#ebds{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#reset{
+    width: 200px;
+}
+.mainend{
+    display: flex;
+    width: 90%;
+    height: 2em;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.mainend div{
+    font-size: 5px;
+    justify-content: center;
+    color: white;
+}
+.inside{
+    width: 100%;
+    height: 1em;
+}
