@@ -1,0 +1,26 @@
+div#searchui
+		{
+        flex:auto;
+		margin:0;
+		padding:0;
+		width:306px;
+		height:100px;
+		background-color: transparent;
+		float:right;
+		}
+
+#searchui input.button
+		{
+		padding:0;
+		margin:0;
+		background:#4aaada;
+		width:30px;
+		height:30px;
+		}
+#searchui input.box
+		{
+		margin:0;
+		margin-top:35px;
+		width:256px;
+		height:28px;
+		}

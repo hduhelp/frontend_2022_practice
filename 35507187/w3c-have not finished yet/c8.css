@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* ----------------------------------- layout ----------------------------------- */
+html 	{ 
+		min-width: 1210px;
+		background-color: #fdfcf8;
+		overflow:scroll;
+		overflow-x:hidden;
+		}
+
+body
+		{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: #fdfcf8;
+		}
+
+
+div#navsecond
+		{
+		float: left;
+		margin: 0 0 0 6px;
+		padding: 0;
+		border: 0;
+		width: 180px;
+		background : transparent;
+		}
+	/* ----------------------------------- header ----------------------------------- */
+div#header, div#header_index
+		{
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		width: 1210px;
+		height: 100px;
+		}
+
+div#header div#sp_header
+		{
+		float:right;
+		width:728px;
+		height:90px;
+		background-color: transparent;
+		margin-top:5px;
+		}
+
+
+div#header_index a, div#header_index h1
+		{
+        margin: 0;
+		padding: 0;
+		border: 0;
+		}
+
+div#header_index a, div#header_index h1
+		{
+		text-indent: -9999px;
+		overflow:hidden;
+		float:left;
+		}
+
+div#header_index a:link, div#header_index a:visited, div#header_index h1
+		{
+		display: block;	
+		width: 500px;
+		height: 100px;
+		background : transparent url(/ui2019/bg.png) 0 -150px no-repeat;
+		}
+/* ----------------------------------- search form ----------------------------------- */
+div#searchui
+		{
+		margin:0;
+		padding:0;
+		width:306px;
+		height:100px;
+		background-color: transparent;
+		float:right;
+		}
+
+#searchui input.button
+		{
+		padding:0;
+		margin:0;
+		background:#4aaada;
+		width:30px;
+		height:30px;
+		}
+#searchui input.box
+		{
+		margin:0;
+		margin-top:35px;
+		width:256px;
+		height:28px;
+		}
+	/* ----------------------------------- navfirst -----------------------------------*/
+div#navfirst
+		{
+		height: 48px;
+		width: 1210px;
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		}
+
+div#navfirst ul#menu
+		{
+		height: 48px;
+		width: 1210px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+
+div#navfirst ul#menu li
+		{
+		margin:0;
+		padding:0;
+		top:0;
+		}
+
+ul#menu li,ul#menu a
+		{
+		display: block;
+		height: 48px;
+		border-bottom:0;
+		}
+
+div#navfirst ul#menu li a
+		{
+		text-indent: -9999px;
+		}
+
+
+div#navfirst ul#menu  {background: transparent url(/ui2019/bg.png) top left no-repeat;}
+
+#h	{width: 166px; left: 0px;}
+#b	{width: 191px; left: 166px;}
+#s	{width: 175px; left: 357px;}
+#p 	{width: 198px; left: 532px;}
+#x	{width: 113px; left: 730px;}
+#w	{width: 197px; left: 843px;}
+#r	{width: 170px; left: 1040px;}
+
+#h a:hover	{background: transparent url(/ui2019/bg.png) 0 -48px no-repeat;}
+#b a:hover	{background: transparent url(/ui2019/bg.png) -166px -48px no-repeat;}
+#s a:hover	{background: transparent url(/ui2019/bg.png) -357px -48px no-repeat;}
+#p a:hover	{background: transparent url(/ui2019/bg.png) -532px -48px no-repeat;}
+#x a:hover	{background: transparent url(/ui2019/bg.png) -730px -48px no-repeat;}
+#w a:hover	{background: transparent url(/ui2019/bg.png) -843px -48px no-repeat;}
+#r a:hover	{background: transparent url(/ui2019/bg.png) -1040px -48px no-repeat;}
