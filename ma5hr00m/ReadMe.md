@@ -1,3 +1,7 @@
-# 2022-HDUHelp-前端任务-W3school
-写了一下午...
-还要考期中555~
+# 2022-HDUHelp-前端小任务
+
+## W3school
+无话可说...  
+
+## todoList
+`index.html`放在`public`目录下啦  
